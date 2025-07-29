@@ -95,6 +95,7 @@ int parse_matroska_tracks(matroska_context *ctx, uint8_t *data, size_t size) {
 The vulnerability provides several attack vectors:
 
 ![Memory corruption debugging session](images/QQ_2.png)
+
 *Debugging session showing controlled call instruction exploitation*
 
 - **Heap Allocation Control**: Attacker controls allocation sizes
